@@ -13,15 +13,6 @@
         <mockito.version>5.2.0</mockito.version>
     </properties>
     <distributionManagement>
-<!--         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository> -->
-        
         <repository>
       		<id>github</id>
       		<name>GitHub OWNER Apache Maven Packages</name>
