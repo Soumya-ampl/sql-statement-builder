@@ -31,4 +31,8 @@ jobs:
       run: mvn --batch-mode deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/upload-artifact@v3
+      with:
+       name: sql-statement-builder-4.5.4-SNAPSHOT-javadoc.jar
+       path: /home/runner/.m2/repository/com/exasol/sql-statement-builder/4.5.4-SNAPSHOT/
           
