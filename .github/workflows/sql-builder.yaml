@@ -30,7 +30,7 @@ jobs:
       working-directory: ./
       run: mvn --batch-mode deploy
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAT_FOR_ACTIONS_TOKEN }}
     - uses: actions/upload-artifact@v3
       with:
        name: sql-statement-builder-4.5.4-SNAPSHOT-javadoc.jar
