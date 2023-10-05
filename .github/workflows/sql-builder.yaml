@@ -2,9 +2,9 @@ name: sql builder
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "feature/inner-query-support" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "feature/inner-query-support" ]
 
 jobs:
   build:
