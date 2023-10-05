@@ -28,7 +28,7 @@ jobs:
       
     - name: Build & Publish package
       working-directory: ./
-      run: mvn deploy
+      run: mvn --batch-mode deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
